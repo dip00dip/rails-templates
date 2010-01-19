@@ -1,10 +1,12 @@
+Templates rewrites by DiegoRv
+
 To use these generator templates I recommend adding this function to your bash profile.
 
   function railsapp {
     template=$1
     appname=$2
     shift 2
-    rails $appname -m http://github.com/ryanb/rails-templates/raw/master/$template.rb $@
+    rails $appname -m http://github.com/diegorv/rails-templates/raw/master/$template.rb $@
   }
 
 You can then use this "railsapp" command instead of the traditional "rails" one. Simply pass the template name as the first argument:
@@ -15,7 +17,7 @@ That will generate a Rails app using the base.rb template found here.
 
 --
 
-Copyright (c) 2008 Ryan Bates
+Original Copyright (c) 2008 Ryan Bates
  
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
