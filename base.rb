@@ -88,8 +88,6 @@ file "public/javascripts/application.js", <<-TXT
 */
 TXT
 
-generate :nifty_layout
-
 git :submodule => "init"
 git :add => "."
 git :commit => %(-m "Bootstrapping #{APP_NAME}")
