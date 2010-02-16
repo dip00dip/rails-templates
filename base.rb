@@ -81,7 +81,7 @@ run "cp config/database.yml config/database.yml.sample"
 
 # copy some files
 file "config/locales/pt.yml", open("http://github.com/svenfuchs/rails-i18n/raw/master/rails/locale/pt-BR.yml").read
-file "public/javascripts/jquery.js", open("http://code.jquery.com/jquery-1.4.min.js").read
+file "public/javascripts/jquery.js", open("http://code.jquery.com/jquery-1.4.1.min.js").read
 file "public/javascripts/application.js", <<-TXT
 /*
   Your application package
