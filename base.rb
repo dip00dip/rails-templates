@@ -46,7 +46,7 @@ public/attachments
 run "cp config/database.yml config/database.yml.sample"
 
 # copy some files
-file "config/locales/pt.yml", open("http://github.com/svenfuchs/rails-i18n/raw/master/rails/locale/pt-BR.yml").read
+file "config/locales/ru.yml", open("http://github.com/svenfuchs/rails-i18n/raw/master/rails/locale/ru.yml").read
 file "public/javascripts/jquery.js", open("http://code.jquery.com/jquery-1.4.2.min.js").read
 file "public/javascripts/application.js", <<-TXT
 /*
